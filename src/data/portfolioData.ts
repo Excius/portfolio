@@ -52,8 +52,8 @@ export const portfolioData = {
   skills: {
     // Programming Languages
     languages: [
-      { name: "C/C++", category: "language" },
-      { name: "Java", category: "language" },
+      { name: "C/C++", category: "languages" },
+      { name: "Java", category: "languages" },
       { name: "JavaScript", category: "languages" },
       { name: "TypeScript", category: "languages" },
       { name: "Python", category: "languages" },
