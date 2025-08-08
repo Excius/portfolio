@@ -39,7 +39,7 @@ export const portfolioData = {
   // Experience Data
   experience: [
     {
-      title: "Core Member",
+      title: "Co-Lead",
       organization: "Enigma Club",
       duration: "2023 - Present",
       description:
