@@ -112,7 +112,6 @@ export const portfolioData = {
       { name: "Neovim", category: "tools" },
       { name: "Postman", category: "tools" },
       { name: "Wireshark", category: "tools" },
-      { name: "Notion", category: "tools" },
       { name: "GDB", category: "tools" },
     ],
   },
