@@ -9,7 +9,7 @@ export const portfolioData = {
       "I'm a backend-focused software developer passionate about cloud engineering, network programming, and scalable systems. I enjoy building efficient architectures, exploring low-level protocols, and deploying robust, cloud-native solutions. Always curious, I aim to create impactful and functional digital experiences.",
     location: "India",
     email: "rao.daksh555@gmail.com",
-    phone: "+91 (768) 899-2293",
+    phone: "+91 768-899-2293",
   },
 
   // Social Links
