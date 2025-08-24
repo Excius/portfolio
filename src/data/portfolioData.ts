@@ -39,12 +39,20 @@ export const portfolioData = {
   // Experience Data
   experience: [
     {
+      title: "Frontend Developer Intern",
+      organization: "Small Group",
+      duration: "Aug 2025 - Present",
+      description:
+        "Building and enhancing user interfaces with modern frontend technologies, focusing on responsive design, performance optimization, and seamless user experience while collaborating in an agile environment.",
+      tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    },
+    {
       title: "Co-Lead",
       organization: "Enigma Club",
-      duration: "2023 - Present",
+      duration: "Oct 2023 - Present",
       description:
         "Contributing to low-level software development and system security, with a focus on reverse engineering, debugging, and understanding OS internals through hands-on CTF mentoring and research.",
-      tech: [],
+      tech: ["C/C++", "Posix APIs", "Linux"],
     },
   ],
 

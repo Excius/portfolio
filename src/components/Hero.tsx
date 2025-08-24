@@ -112,9 +112,8 @@ const Hero = () => {
               size="lg"
               className="text-lg px-8 py-3 border-primary/30 hover:border-primary hover:bg-secondary/80"
               onClick={() => {
-                const googleDriveLink =
-                  "https://drive.google.com/file/d/11kzGYDMy7htcHHBZeWbYmf66iOVClRGX/view?usp=sharing";
-                window.open(googleDriveLink, "_blank");
+                const resumeLink = "https://excius.github.io/Daksh_CV.pdf";
+                window.open(resumeLink, "_blank");
               }}
             >
               Download Resume
