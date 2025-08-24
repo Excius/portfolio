@@ -112,7 +112,7 @@ const Hero = () => {
               size="lg"
               className="text-lg px-8 py-3 border-primary/30 hover:border-primary hover:bg-secondary/80"
               onClick={() => {
-                const resumeLink = "https://excius.github.io/Daksh_CV.pdf";
+                const resumeLink = "https://excius.github.io/resume.pdf";
                 window.open(resumeLink, "_blank");
               }}
             >
