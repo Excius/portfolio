@@ -43,7 +43,7 @@ export const portfolioData = {
       organization: "Small Group",
       duration: "Aug 2025 - Present",
       description:
-        "Building and enhancing user interfaces with modern frontend technologies, focusing on responsive design, performance optimization, and seamless user experience while collaborating in an agile environment.",
+        "Building and enhancing user interfaces and backend services using modern frontend and backend technologies, focusing on responsive design, performance optimization, scalable APIs, database management, and seamless user experience, while collaborating in an agile environment.",
       tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     },
     {
