@@ -39,7 +39,7 @@ export const portfolioData = {
   // Experience Data
   experience: [
     {
-      title: "Frontend Developer Intern",
+      title: "Full-stack Developer Intern",
       organization: "Small Group",
       duration: "Aug 2025 - Present",
       description:
