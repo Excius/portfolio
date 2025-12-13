@@ -44,7 +44,7 @@ export const portfolioData = {
       duration: "Aug 2025 - Present",
       description:
         "Building and enhancing user interfaces and backend services using modern frontend and backend technologies, focusing on responsive design, performance optimization, scalable APIs, database management, and seamless user experience, while collaborating in an agile environment.",
-      tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      tech: ["Next.js", "React", "FastAPI", "CI/CD", "Docker"],
     },
     {
       title: "Co-Lead",
@@ -62,6 +62,7 @@ export const portfolioData = {
     languages: [
       { name: "C/C++", category: "languages" },
       { name: "Java", category: "languages" },
+      { name: "GO", category: "languages" },
       { name: "JavaScript", category: "languages" },
       { name: "TypeScript", category: "languages" },
       { name: "Python", category: "languages" },
@@ -84,11 +85,10 @@ export const portfolioData = {
     // Backend Technologies
     backend: [
       { name: "Node.js", category: "backend" },
-      { name: "Express.js", category: "backend" },
-      { name: "REST APIs", category: "backend" },
+      { name: "FastAPI", category: "backend" },
       { name: "Hono.js", category: "backend" },
-      { name: "WebSockets", category: "backend" },
       { name: "Cloudflare Worker", category: "backend" },
+      { name: "Pub/Sub", category: "backend" },
     ],
 
     // Databases
@@ -137,6 +137,47 @@ export const portfolioData = {
 
   // Projects (if needed in the future)
   projects: [
+    {
+      title: "Modern Cloud-Native Kerberos",
+      description:
+        "Passwordless, high-availability Kerberos authentication system using PKINIT, microservices, and a cloud-native architecture with automatic failover and multi-device support.",
+      tech: [
+        "Python",
+        "Flask",
+        "WebSockets",
+        "React",
+        "TypeScript",
+        "Docker",
+        "Web Crypto API",
+        "X.509 / PKINIT",
+        "SQLite",
+        "RSA",
+        "AES-GCM",
+      ],
+      github: "https://github.com/Excius/kerberos",
+      live: "https://github.com/Excius/kerberos",
+      image: "",
+    },
+    {
+      title: "Huffman Coding File Compression",
+      description:
+        "High-performance file compression tool implementing a multi-stage pipeline (BWT → MTF → RLE → Huffman) with OpenMP-based parallelization and comprehensive correctness testing.",
+      tech: [
+        "C",
+        "OpenMP",
+        "GCC / Clang",
+        "POSIX",
+        "Make",
+        "Burrows-Wheeler Transform",
+        "Move-to-Front",
+        "Run-Length Encoding",
+        "Huffman Coding",
+        "Parallel Computing",
+      ],
+      github: "https://github.com/Excius/file-compression",
+      live: "https://github.com/Excius/file-compression",
+      image: "/huffman.png",
+    },
     {
       title: "Pingio",
       description:
