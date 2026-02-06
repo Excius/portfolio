@@ -41,7 +41,7 @@ export const portfolioData = {
     {
       title: "Full-stack Developer Intern",
       organization: "Small Group",
-      duration: "Aug 2025 - Present",
+      duration: "Aug 2025 - Jan 2026",
       description:
         "Building and enhancing user interfaces and backend services using modern frontend and backend technologies, focusing on responsive design, performance optimization, scalable APIs, database management, and seamless user experience, while collaborating in an agile environment.",
       tech: ["Next.js", "React", "FastAPI", "CI/CD", "Docker"],
