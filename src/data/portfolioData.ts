@@ -140,10 +140,35 @@ export const portfolioData = {
     {
       title: "HTTP Server from Scratch",
       description:
-        "Built a multithreaded HTTP/1.1 server in C from first principles using POSIX sockets and pthreads. Implemented request parsing, routing, response serialization, header processing, Content-Length based body handling, and concurrent client processing without external web frameworks.",
-      tech: ["C", "POSIX Sockets", "Pthreads", "TCP/IP", "Concurrency"],
+        "Built a multithreaded HTTP/1.1 server in C from first principles using POSIX sockets and pthreads without external web frameworks.",
+      tech: [
+        "C",
+        "POSIX Sockets",
+        "Pthreads",
+        "TCP/IP",
+        "Concurrency",
+        "Systems Programming",
+        "Network Simulation",
+      ],
       github: "https://github.com/Excius/httpServer",
       live: "https://github.com/Excius/httpServer",
+      image: "",
+    },
+    {
+      title: "Concurrent Log Parser in GO",
+      description:
+        "A high-performance log processing engine built in Go using streaming file I/O, goroutines, worker pools, and aggregation pipelines to efficiently parse large log datasets with minimal memory usage.",
+      tech: [
+        "Go",
+        "Goroutines",
+        "Channels",
+        "Worker Pools",
+        "Concurrency",
+        "Streaming I/O",
+        "Log Processing",
+      ],
+      github: "https://github.com/Excius/log-parser",
+      live: "https://github.com/Excius/log-parser",
       image: "",
     },
     {
@@ -165,6 +190,22 @@ export const portfolioData = {
       ],
       github: "https://github.com/Excius/kerberos",
       live: "https://github.com/Excius/kerberos",
+      image: "",
+    },
+    {
+      title: "NAT & Port Address Translation Simulator",
+      description:
+        "Built a high-performance NAT/PAT simulator from scratch in C++ to model how routers translate private network traffic to public addresses with multithreading support.",
+      tech: [
+        "NAT",
+        "TCP/IP",
+        "Multithreading",
+        "Concurrency",
+        "Systems Programming",
+        "Network Simulation",
+      ],
+      github: "https://github.com/Excius/nat-protocol",
+      live: "https://github.com/Excius/nat-protocol",
       image: "",
     },
     {
