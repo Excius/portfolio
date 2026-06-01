@@ -138,6 +138,15 @@ export const portfolioData = {
   // Projects (if needed in the future)
   projects: [
     {
+      title: "HTTP Server from Scratch",
+      description:
+        "Built a multithreaded HTTP/1.1 server in C from first principles using POSIX sockets and pthreads. Implemented request parsing, routing, response serialization, header processing, Content-Length based body handling, and concurrent client processing without external web frameworks.",
+      tech: ["C", "POSIX Sockets", "Pthreads", "TCP/IP", "Concurrency"],
+      github: "https://github.com/Excius/httpServer",
+      live: "https://github.com/Excius/httpServer",
+      image: "",
+    },
+    {
       title: "Modern Cloud-Native Kerberos",
       description:
         "Passwordless, high-availability Kerberos authentication system using PKINIT, microservices, and a cloud-native architecture with automatic failover and multi-device support.",
