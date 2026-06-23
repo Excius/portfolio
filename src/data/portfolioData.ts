@@ -244,7 +244,7 @@ export const portfolioData = {
         "Redux",
       ],
       github: "https://github.com/Excius/PingioV2",
-      live: "https://pingio.excius.live/",
+      live: "https://pingio.excius.me/",
       image: "/pingio.png",
     },
     {
@@ -261,7 +261,7 @@ export const portfolioData = {
         "ShadCN",
       ],
       github: "https://github.com/Excius/rippl",
-      live: "https://rippl.excius.live/",
+      live: "https://rippl.excius.me/",
       image: "/rippl.png",
     },
     {
