@@ -61,8 +61,8 @@ export const portfolioData = {
     // Programming Languages
     languages: [
       { name: "C/C++", category: "languages" },
-      { name: "Java", category: "languages" },
       { name: "GO", category: "languages" },
+      { name: "Java", category: "languages" },
       { name: "JavaScript", category: "languages" },
       { name: "TypeScript", category: "languages" },
       { name: "Python", category: "languages" },
@@ -76,10 +76,9 @@ export const portfolioData = {
     frontend: [
       { name: "React", category: "frontend" },
       { name: "Next.js", category: "frontend" },
-      { name: "EJS", category: "frontend" },
+      { name: "React Native", category: "frontend" },
       { name: "Tailwind CSS", category: "frontend" },
-      { name: "Framer Motion", category: "frontend" },
-      { name: "Redux", category: "frontend" },
+      { name: "EJS", category: "frontend" },
     ],
 
     // Backend Technologies
@@ -88,7 +87,6 @@ export const portfolioData = {
       { name: "FastAPI", category: "backend" },
       { name: "Hono.js", category: "backend" },
       { name: "Cloudflare Worker", category: "backend" },
-      { name: "Pub/Sub", category: "backend" },
     ],
 
     // Databases
@@ -97,30 +95,44 @@ export const portfolioData = {
       { name: "MongoDB", category: "databases" },
       { name: "Redis", category: "databases" },
       { name: "Prisma", category: "databases" },
-      { name: "MySQL", category: "databases" },
       { name: "SQLite", category: "databases" },
     ],
 
     // DevOps & Cloud
     devops: [
       { name: "Docker", category: "devops" },
+      { name: "Kubernetes", category: "devops" },
+      { name: "GitHub Actions", category: "devops" },
+      { name: "CI/CD", category: "devops" },
       { name: "AWS", category: "devops" },
       { name: "GCP", category: "devops" },
       { name: "Vercel", category: "devops" },
-      { name: "Render", category: "devops" },
-      { name: "CI/CD", category: "devops" },
-      { name: "GitHub Actions", category: "devops" },
       { name: "NGINX", category: "devops" },
+      { name: "Prometheus", category: "devops" },
+      { name: "Grafana", category: "devops" },
+    ],
+
+    // Systems / Networking
+    systems: [
+      { name: "Linux", category: "systems" },
+      { name: "TCP/IP", category: "systems" },
+      { name: "HTTP/HTTPS", category: "systems" },
+      { name: "WebRTC", category: "systems" },
+      { name: "Mediasoup", category: "systems" },
+      { name: "Event-Driven Architecture", category: "systems" },
+      { name: "Microservices", category: "systems" },
+      { name: "Producer-Consumer Pattern", category: "systems" },
+      { name: "Distributed Systems", category: "systems" },
     ],
 
     // Tools & Other
     tools: [
       { name: "Git", category: "tools" },
-      { name: "VS Code", category: "tools" },
       { name: "Neovim", category: "tools" },
-      { name: "Postman", category: "tools" },
       { name: "Wireshark", category: "tools" },
       { name: "GDB", category: "tools" },
+      { name: "Mediasoup", category: "tools" },
+      { name: "WebRTC", category: "tools" },
     ],
   },
 
@@ -132,11 +144,32 @@ export const portfolioData = {
     { id: "backend", label: "Backend" },
     { id: "databases", label: "Databases" },
     { id: "devops", label: "DevOps" },
+    { id: "systems", label: "Systems & Networking" },
     { id: "tools", label: "Tools" },
   ],
 
   // Projects (if needed in the future)
   projects: [
+    {
+      title: "Event Driven Notification System (EDNS)",
+      description:
+        "Built a production-grade event-driven notification system in Go using a microservice architecture with Redis Streams, Consumer Groups, WebSockets, SMTP email delivery, automatic retries, Dead Letter Queue (DLQ), pending message recovery, Prometheus metrics, and graceful shutdown.",
+      tech: [
+        "Go",
+        "Gin",
+        "PostgreSQL",
+        "Redis Streams",
+        "Redis Pub/Sub",
+        "WebSockets",
+        "SMTP",
+        "Prometheus",
+        "Docker",
+        "Zap Logger",
+      ],
+      github: "https://github.com/Excius/edns",
+      live: "https://github.com/Excius/edns",
+      image: "",
+    },
     {
       title: "HTTP Server from Scratch",
       description:
@@ -152,6 +185,24 @@ export const portfolioData = {
       ],
       github: "https://github.com/Excius/httpServer",
       live: "https://github.com/Excius/httpServer",
+      image: "",
+    },
+    {
+      title: "MQTT-NG: Secure IoT Communication",
+      description:
+        "Enhanced the MQTT-NG framework by implementing secure MQTT communication using TLS, TLS-PSK, session resumption, and protocol-level attack mitigation. Improved the system with Go-based components to increase performance, scalability, and maintainability for IoT deployments.",
+      tech: [
+        "Go",
+        "Python",
+        "MQTT",
+        "Mosquitto",
+        "OpenSSL",
+        "TLS",
+        "IoT",
+        "Network Security",
+      ],
+      github: "https://github.com/Excius/mqtt-protocol-v2",
+      live: "https://github.com/Excius/mqtt-protocol-v2",
       image: "",
     },
     {

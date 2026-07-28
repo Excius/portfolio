@@ -131,7 +131,7 @@ const ProjectsPage = () => {
                     <CardTitle className="text-base xs:text-lg sm:text-xl md:text-2xl group-hover:text-primary transition-colors leading-tight">
                       {project.title}
                     </CardTitle>
-                    <CardDescription className="text-xs xs:text-sm sm:text-base md:text-lg leading-relaxed line-clamp-3">
+                    <CardDescription className="text-xs/2 xs:text-xs sm:text-sm md:text-base font-semibold leading-relaxed line-clamp-4">
                       {project.description}
                     </CardDescription>
                   </CardHeader>
